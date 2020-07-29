@@ -28,6 +28,7 @@ import CardWeather from "./CardWeather"
         } else {
             console.log("not supported")
         }
+        
     }, [])
       
     return (
