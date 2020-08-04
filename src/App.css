@@ -37,18 +37,5 @@
   }
 }
 
-.cardContainer {
-  display: flex;
-}
 
-.cardWeather {
-  display: flex;
-  flex-direction: row;
-  width: 250px;
-  border: 2px solid black;
-  margin: 10px;
-}
 
-input {
-  background-color: aquamarine;
-}

@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Caveat&display=swap");
+
+.currentWeather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  width: 800px;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 10px;
+
+  .localTime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+
+    h1 {
+      font-family: "Black Ops One";
+      font-size: 2.5rem;
+      margin: 0 20px;
+      margin-left: 0;
+      width: 300px;
+    }
+
+    h2 {
+      font-family: "Black Ops One";
+      font-size: 1.5rem;
+      font-style: italic;
+    }
+  }
+
+  .iconWeather {
+    display: flex;
+    margin: 25px;
+
+    i {
+      font-size: 8rem;
+      margin: 0 50px;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+
+  .tempWeather {
+    display: flex;
+    align-items: center;
+    margin: 25px;
+
+    h1 {
+      font-size: 8rem;
+      font-family: "Black Ops One";
+      margin: 0 50px;
+    }
+  }
+
+  .minmaxWeather {
+    h2 {
+      font-size: 1.5rem;
+      font-family: "Black Ops One";
+    }
+
+    span {
+      font-style: italic;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .currentWeather {
+    width: 650px; 
+
+    .localTime {
+
+      h1 {
+        font-size: 2.3rem; 
+      }
+
+      h2 {
+        font-size: 1.4rem; 
+      }
+    }
+
+    .iconWeather {
+      margin: 15px; 
+
+      i {
+        font-size: 6rem; 
+      }
+
+      h2 {
+        font-size: 2rem; 
+      }
+    }
+
+    .tempWeather {
+      margin: 15px; 
+
+      h1 {
+        font-size: 6rem; 
+      }
+    }
+
+    .minmaxWeather {
+
+      h2 {
+        font-size: 1.4rem; 
+      }
+      
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .currentWeather {
+    width: 370px; 
+
+    .localTime {
+      flex-direction: column;
+
+
+      h1 {
+        font-size: 2.5rem;
+        margin: 0 auto; 
+        width: auto; 
+      }
+
+      h2 {
+        font-size: 1.3rem; 
+      }
+    }
+
+    .iconWeather {
+      margin: 15px auto; 
+      i {
+        font-size: 5rem; 
+        margin: 0 30px 0 0; 
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    .tempWeather {
+      margin: 15px 0; 
+
+      h1 {
+        font-size: 4rem; 
+        margin: 0 15px 0 0;
+      }
+    }
+
+    .minmaxWeather {
+      h2 {
+        font-size: 1.2rem; 
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .currentWeather {
+    width: 300px; 
+
+    .localTime {
+      margin: 20px 0; 
+
+      h1 {
+        font-size: 2.1rem; 
+      }
+
+      h2 {
+        font-size: 1.2rem; 
+      }
+    }
+
+    .iconWeather {
+      margin: 15px auto; 
+      i {
+        font-size: 4rem; 
+        margin: 0 25px 0 0; 
+      }
+
+      h2 {
+        font-size: 1.3rem; 
+      }
+    }
+
+    .tempWeather {
+
+      h1 {
+        font-size: 3rem; 
+      }
+    }
+
+    .minmaxWeather {
+      h2 {
+        font-size: 1rem; 
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .currentWeather {
+    width: 270px; 
+
+    .localTime {
+
+      h1 {
+        font-size: 1.8rem; 
+      }
+
+      h2 {
+        font-size: 1rem; 
+      }
+    }
+
+    .iconWeather {
+
+      i {
+        font-size: 3.5rem; 
+        margin: 0 20px 0 0; 
+      }
+
+      h2 {
+        font-size: 1.2rem; 
+      }
+    }
+
+    .tempWeather {
+
+      h1 {
+        font-size: 2.8rem; 
+      }
+    }
+
+    .minmaxWeather {
+      h2 {
+        font-size: 0.8rem; 
+      }
+    }
+  }
+}
